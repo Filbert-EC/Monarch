@@ -1,0 +1,121 @@
+:root {
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    height: 70px;
+}
+  
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+  
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+  
+.nav-links li {
+    margin: 0 10px;
+}
+  
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.home_design {
+    background-color: #064ef0;
+}
+
+.home {
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+}
+  
+#home {
+    text-align: left;
+}
+
+.about_me_design {
+    background-color: #fdf901;
+}
+
+.about_me {
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+}
+  
+#about_me {
+    text-align: left;
+}
+
+.education {
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+}
+  
+#education {
+    text-align: left;
+}
+
+.education_design {
+    background-color: #06f012;
+}
+
+.contact {
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+}
+  
+#contact {
+    text-align: left;
+}
+
+.contact_design {
+    background-color: #ff1a1a;
+}
